@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/postgres' #Данные к локальной бд, на сервере все поменяем
+    username: 'postgres'
+    password: 'postgres'
+  jpa:
+    generate-ddl: false
+    show-sql: false
+    hibernate:
+      ddl-auto: create
