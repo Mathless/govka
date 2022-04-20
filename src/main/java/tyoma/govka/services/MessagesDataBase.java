@@ -1,4 +1,4 @@
-package tyoma.govka.workhorse;
+package tyoma.govka.services;
 
 import tyoma.govka.exceptions.NotFoundException;
 

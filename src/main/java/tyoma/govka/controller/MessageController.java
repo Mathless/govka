@@ -2,7 +2,7 @@ package tyoma.govka.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import tyoma.govka.workhorse.MessagesDataBase;
+import tyoma.govka.services.MessagesDataBase;
 
 import java.util.List;
 import java.util.Map;
